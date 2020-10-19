@@ -21,7 +21,6 @@ from sklearn.tree import DecisionTreeClassifier
 
 # load the iris datasets
 dataset = datasets.load_iris()
-print("branch test")
 
 # fit a model to the data
 model = DecisionTreeClassifier()
