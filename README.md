@@ -1,3 +1,7 @@
-# pypads-examples
+Examples
+========
 
-This repository holds simple examples for the usage of PyPads. For notebook integration another repository exists.
+Miscellaneous examples
+----------------------
+
+Miscellaneous and introductory examples for PyPads.
