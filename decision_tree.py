@@ -31,9 +31,4 @@ predicted = model.predict(dataset.data)
 # summarize the fit of the model
 logger.error("Score: " + str(f1_score(expected, predicted, average="macro")))
 
-
-print(tracker.api.get_artifacts())
-print(tracker.api.search_artifacts(search=".*json"))
-print(tracker.api.list_logger_calls())
-
 tracker.api.end_run()
