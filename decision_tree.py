@@ -6,7 +6,6 @@ An example of using PyPads to track different functions and classes used in a mi
 """
 import os
 
-from pypads import logger
 from pypads.app.base import PyPads
 
 path = os.path.expanduser('~')
@@ -29,6 +28,6 @@ model.fit(dataset.data, dataset.target)
 expected = dataset.target
 predicted = model.predict(dataset.data)
 # summarize the fit of the model
-logger.error("Score: " + str(f1_score(expected, predicted, average="macro")))
+print("Score: " + str(f1_score(expected, predicted, average="macro")))
 
 tracker.api.end_run()
