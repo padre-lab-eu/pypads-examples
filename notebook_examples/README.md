@@ -31,7 +31,6 @@ PyPads logs all the experiments to a MLFlow server and a MongoDB server. The nec
 - MONGO_URL=mongodb://www.padre-lab.eu:2222
 - MONGO_PW=XXXXXXXXXXXXXXXXXXXXXXXXX
 
-
 ### Custom Dataset
 Users mostly need datasets other than scikit-learn datasets. In this example, a custom dataset is created, split into 
 training and testing and classifies the data using a RandomForestClassifier from scikit-learn.
