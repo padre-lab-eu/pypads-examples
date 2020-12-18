@@ -30,17 +30,7 @@ PyPads logs all the experiments to a MLFlow server and a MongoDB server. The nec
 - MONGO_USER=pypads
 - MONGO_URL=mongodb://www.padre-lab.eu:2222
 - MONGO_PW=XXXXXXXXXXXXXXXXXXXXXXXXX
- 
-### Decision Tree
-A simple Decision Tree experiment using the scikit-learn classifier. It shows logging of metrics 
-automatically by PyPads and retrieving them once the experiment is done. 
 
-### MLP Classifier
-An MLP classifier using the scikit-learn MLP algorithm. The dataset loading and splitting steps are similar to that of the 
-Decision Tree Classifier.
-
-### SVC 
-A simple example containing a Support Vector Classifier. This is similar to the other scikit-learn classier notebooks. 
 
 ### Custom Dataset
 Users mostly need datasets other than scikit-learn datasets. In this example, a custom dataset is created, split into 
